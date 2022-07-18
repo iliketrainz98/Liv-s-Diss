@@ -1,6 +1,5 @@
-## Welcome to GitHub Pages
+## Liv's Dissertation Survey
 
-<!DOCTYPE html>
 <html>
 <body>
 
@@ -15,8 +14,8 @@ This credit MUST stay intact for use
 //specify random links below. You can have as many as you want
 var randomlinks=new Array()
 
-randomlinks[0]="http://freewarejava.com"
-randomlinks[1]="http://javascriptkit.com"
+randomlinks[0]="http://bbc.co.uk"
+randomlinks[1]="http://google.co.uk"
 
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
