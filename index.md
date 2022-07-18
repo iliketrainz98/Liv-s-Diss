@@ -1,37 +1,38 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/iliketrainz98/Liv-s-Diss/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website - Go To Survey</title>
+</head>
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<script>
+<!--
+/*
+Random link button- By JavaScript Kit (http://javascriptkit.com)
+Over 300+ free scripts!a
+This credit MUST stay intact for use
+*/
 
-### Markdown
+//specify random links below. You can have as many as you want
+var randomlinks=new Array()
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+randomlinks[0]="http://freewarejava.com"
+randomlinks[1]="http://javascriptkit.com"
 
-```markdown
-Syntax highlighted code block
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+//-->
+</script>
+<form method="post">
+<p><input type="button" name="B1" value="Begin Survey" onclick="randomlink()"></p> </form>
 
-# Header 1
-## Header 2
-### Header 3
+<!--Uncomment below to use a regular text link instead
+<a href="javascript:randomlink()">Random Link</a>
+-->
 
-- Bulleted
-- List
+</body>
+</html>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iliketrainz98/Liv-s-Diss/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
