@@ -2,9 +2,6 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<title>Website - Go To Survey</title>
-</head>
 <body>
 
 <script>
