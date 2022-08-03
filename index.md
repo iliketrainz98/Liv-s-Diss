@@ -14,8 +14,8 @@ This credit MUST stay intact for use
 //specify random links below. You can have as many as you want
 var randomlinks=new Array()
 
-randomlinks[0]="http://bbc.co.uk"
-randomlinks[1]="http://google.co.uk"
+randomlinks[0]="https://sps.onlinesurveys.ac.uk/harrisdissertationsurveyc"
+randomlinks[1]="https://sps.onlinesurveys.ac.uk/harrisdissertationt"
 
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
